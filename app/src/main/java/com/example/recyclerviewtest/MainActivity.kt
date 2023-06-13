@@ -63,7 +63,6 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
     }
 
     // https://developer.android.com/guide/navigation/navigation-ui#listen_for_navigation_events
