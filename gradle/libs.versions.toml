@@ -1,0 +1,50 @@
+[versions]
+#libraries versions
+core_ktx = "1.10.1"
+appcompat = "1.6.1"
+activity_ktx = "1.7.2"
+material = "1.9.0"
+constraintlayout = "2.1.4"
+lifecycle = "2.6.1"
+navigation = "2.7.0"
+retrofit = "2.9.0"
+kotlinx_coroutines = "1.7.3"
+junit_ktx = "1.1.5"
+junit = "4.13.2"
+mockk = "1.13.5"
+kotlinx_coroutines_test = "1.7.3"
+arch_core_testing = "2.2.0"
+espresso_core = "3.5.1"
+
+#plugins versions
+androidGradlePlugin = "8.1.0"
+kotlinAndroidPlugin = "1.8.20"
+androidx_navigation_safeargs = "2.5.3"
+
+[libraries]
+androidx_core_ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core_ktx" }
+androidx_appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx_activity_ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity_ktx" }
+google_material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx_constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx_lifecycle_livedata_ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
+androidx_lifecycle_viewmodel_ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx_navigation_fragment_ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx_navigation_ui_ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+androidx_junit = {  group = "androidx.test.ext", name = "junit", version.ref = "junit_ktx" }
+square_retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+square_converter_gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+kotlinx_coroutines_android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx_coroutines" }
+kotlinx_coroutines_test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinx_coroutines_test" }
+junit_junit = { group = "junit", name = "junit", version.ref = "junit" }
+io_mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+androidx_arch_core_testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "arch_core_testing" }
+androidx_test_espresso_core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso_core" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinAndroidPlugin" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlinAndroidPlugin" }
+androidx-navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "androidx_navigation_safeargs" }
+
