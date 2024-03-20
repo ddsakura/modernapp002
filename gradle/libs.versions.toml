@@ -1,12 +1,12 @@
 [versions]
 #libraries versions
-core_ktx = "1.10.1"
+core_ktx = "1.12.0"
 appcompat = "1.6.1"
-activity_ktx = "1.7.2"
-material = "1.9.0"
+activity_ktx = "1.8.2"
+material = "1.11.0"
 constraintlayout = "2.1.4"
-lifecycle = "2.6.1"
-navigation = "2.7.0"
+lifecycle = "2.7.0"
+navigation = "2.7.7"
 retrofit = "2.9.0"
 kotlinx_coroutines = "1.7.3"
 junit_ktx = "1.1.5"
@@ -17,9 +17,9 @@ arch_core_testing = "2.2.0"
 espresso_core = "3.5.1"
 
 #plugins versions
-androidGradlePlugin = "8.1.0"
-kotlinAndroidPlugin = "1.8.20"
-androidx_navigation_safeargs = "2.5.3"
+androidGradlePlugin = "8.3.1"
+kotlinAndroidPlugin = "1.9.22"
+androidx_navigation_safeargs = "2.7.7"
 
 [libraries]
 androidx_core_ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core_ktx" }
